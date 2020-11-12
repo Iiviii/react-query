@@ -23,10 +23,15 @@ const TeamDetails = ({match}) => {
     <div>
       <div>
       {status === 'loading' && (
-        <div>loading...</div>
+        <Card>loading...</Card>
       )}
       {status === 'error' && (
-        <div>error</div>
+        <Card>
+          <Link to="/">
+            <LogoLink src={Logo} alt="logo" />
+          </Link>
+          <p>Error</p>
+        </Card>
       )}
       {status === 'success' && (
         <Card>

@@ -24,10 +24,10 @@ const GameDetails = ({match}) => {
   return (
     <div>
       {status === 'loading' && (
-        <div>loading...</div>
+        <Card>loading...</Card>
       )}
       {status === 'error' && (
-        <div>error</div>
+        <Card>error</Card>
       )}
       {status === 'success' && (
         <Card>

@@ -24,6 +24,7 @@ export const Card = styled.div`
   box-shadow: 0 5px 10px #888;
   padding: 20px 10px 50px 10px;
   text-align: center;
+  margin-bottom: 30px;
   border-radius: 20px;
   background-color: #fff;
   transition-duration: 0.4s;

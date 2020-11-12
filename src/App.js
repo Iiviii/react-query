@@ -10,7 +10,7 @@ import GameDetails from './features/GameDetails'
 import TeamDetails from './features/TeamDetails'
 
 const Body = styled.div`
-  text-align: center;
+  padding: 10px;
 `
 
 const App = () => {
