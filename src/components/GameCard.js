@@ -28,6 +28,10 @@ export const Card = styled.div`
   background-color: #fff;
   transition-duration: 0.4s;
   color: #ffcd57;
+  transition-duration: 0.3s;
+  :hover{
+    transform: scale(1.02);
+  }
 `
 export const Dflex = styled.div`
   display: flex;

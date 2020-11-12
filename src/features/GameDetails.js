@@ -36,7 +36,11 @@ const GameDetails = ({match}) => {
           </Link>
           <h2>{data.season} {data.status}</h2>
           <p >Date: ( { data.date } )</p>
-          <Dflex><Title>{data.home_team.full_name}</Title> vs <Title>{data.visitor_team.full_name}</Title></Dflex>
+          <Dflex>
+            <Title>{data.home_team.full_name}</Title>
+            <p>vs</p>
+            <Title>{data.visitor_team.full_name}</Title>
+          </Dflex>
           <Dflex>
             <Score>{data.home_team_score}</Score>
             <Score>{data.visitor_team_score}</Score>
